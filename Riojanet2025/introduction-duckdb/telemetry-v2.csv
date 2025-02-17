@@ -1,0 +1,25 @@
+timestamp,source_table_name,rows,time_duckdb_to_df,time_df_to_dest,time_total,library,file_type,description
+2025-01-19 16:21:31.610388,lineitem,100000,0.12,0.51,0.63,pandas,csv,Export data from dataframe to csv
+2025-01-19 16:21:31.738260,lineitem,100000,0.04,0.06,0.1,polars,csv,Export data from dataframe to csv
+2025-01-19 16:21:31.838662,lineitem,100000,0,0,0.1,duckdb,csv,Export data from DuckDB to csv
+2025-01-19 16:21:32.155621,lineitem,100000,0.07,0.24,0.31,pandas,parquet,Export data from dataframe to csv
+2025-01-19 16:21:32.295730,lineitem,100000,0.03,0.1,0.13,polars,parquet,Export data from dataframe to csv
+2025-01-19 16:21:32.396728,lineitem,100000,0,0,0.1,duckdb,parquet,Export data from DuckDB to parquet
+2025-01-19 16:21:40.368188,lineitem,1000000,0.77,7.2,7.97,pandas,csv,Export data from dataframe to csv
+2025-01-19 16:21:41.289903,lineitem,1000000,0.34,0.41,0.76,polars,csv,Export data from dataframe to csv
+2025-01-19 16:21:42.484383,lineitem,1000000,0,0,1.17,duckdb,csv,Export data from DuckDB to csv
+2025-01-19 16:21:44.241223,lineitem,1000000,0.81,0.95,1.76,pandas,parquet,Export data from dataframe to csv
+2025-01-19 16:21:45.124234,lineitem,1000000,0.27,0.5,0.77,polars,parquet,Export data from dataframe to csv
+2025-01-19 16:21:45.923950,lineitem,1000000,0,0,0.78,duckdb,parquet,Export data from DuckDB to parquet
+2025-01-19 16:22:54.976083,lineitem,5000000,10.2,58.83,69.03,pandas,csv,Export data from dataframe to csv
+2025-01-19 16:23:14.874593,lineitem,5000000,2.49,2.72,5.21,polars,csv,Export data from dataframe to csv
+2025-01-19 16:23:19.732523,lineitem,5000000,0,0,4.71,duckdb,csv,Export data from DuckDB to csv
+2025-01-19 16:23:32.353137,lineitem,5000000,4.65,7.97,12.62,pandas,parquet,Export data from dataframe to csv
+2025-01-19 16:23:39.020979,lineitem,5000000,1.68,4.26,5.94,polars,parquet,Export data from dataframe to csv
+2025-01-19 16:23:44.018023,lineitem,5000000,0,0,4.87,duckdb,parquet,Export data from DuckDB to parquet
+2025-01-19 16:27:21.605164,lineitem,10000000,21.6,195.97,217.58,pandas,csv,Export data from dataframe to csv
+2025-01-19 16:28:36.445420,lineitem,10000000,20.31,12.19,32.5,polars,csv,Export data from dataframe to csv
+2025-01-19 16:29:57.209521,lineitem,10000000,0,0,79.43,duckdb,csv,Export data from DuckDB to csv
+2025-01-19 16:30:51.224547,lineitem,10000000,26.52,27.48,54.0,pandas,parquet,Export data from dataframe to csv
+2025-01-19 16:31:19.250706,lineitem,10000000,6.5,12.18,18.69,polars,parquet,Export data from dataframe to csv
+2025-01-19 16:31:31.692895,lineitem,10000000,0,0,11.73,duckdb,parquet,Export data from DuckDB to parquet
