@@ -138,7 +138,7 @@ FROM delta_scan('abfss://<workspace_id>@onelake.dfs.fabric.microsoft.com/d<kqldb
 
 ##### forma rápida de copiar/pegar
 
-![alt text](/introduction-duckdb/image-fabric-table-link.png)
+![alt text](./introduction-duckdb/image-fabric-table-link.png) 
 
 
 
